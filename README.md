@@ -36,3 +36,23 @@ To start the canister service:
 cd canister_service
 dfx start --clean --background
 ```
+
+## Running test for DigiTrust
+
+### Step 1: Start a local instance of the Internet Computer
+
+```bash
+dfx start --clean --background
+```
+
+### Step 2: Install npm dependencies
+
+```bash
+npm install
+```
+
+### Step 3: Run the test suite
+
+```bash
+make test
+```
